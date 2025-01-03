@@ -1,0 +1,103 @@
+{
+    "Games-TopPicks":[
+    {
+        "GameName":"Ultrakill",
+        "gamePrice":"10.99",
+        "gameRating":"95%",
+        "discription":"Fast paced action gun play mixed with quake movement leaving this game to be a long lasting action fun-fest.",
+        "isOnWhishlist":false,
+        "isPurchased":false,
+        "contentRating":"Warning: heavy voilence",
+        "image":"/images/ultraKill.png",
+        "GameCode":"1"
+    },
+    {
+        "GameName":"Elden ring",
+        "gamePrice":"49.99",
+        "gameRating":"97%",
+        "discription":"Vast open world that lives up to the 'from software' name, from here its only a matter of downloading the game to experreience true adventrue...",
+        "isOnWhishlist":false,
+        "isPurchased":false,
+        "contentRating":"Warning: heavy voilence",
+         "image":"/images/eldenRing.png",
+         "GameCode":"2"
+    },
+    {
+        "GameName":"Devil May Cry 5",
+        "gamePrice":"59.99",
+        "gameRating":"92%",
+        "discription":"The 5th installment in a long running series of deamon hunting, your stuck as the protagonist nero dantes astranged newphew. Along witho some friends you get vengenace for the thing that stole your arm",
+        "isOnWhishlist":true,
+        "isPurchased":false,
+        "contentRating":"Warning: heavy voilence",
+         "image":"/images/devilMayCry.png",
+         "GameCode":"3"
+    },
+    {
+        "GameName":"Hell Divers",
+        "gamePrice":"59.99",
+        "gameRating":"78%",
+        "discription":"Exterminate the xenos scum and save super earth",
+        "isOnWhishlist":false,
+        "isPurchased":false,
+        "contentRating":"Warning: heavy voilence",
+         "image":"/images/HellDivers.png",
+         "GameCode":"4"
+    },
+    {
+        "GameName":"Hollow Knight",
+        "gamePrice":"9.99",
+        "gameRating":"95%",
+        "discription":"Venture into a sleepless kingdom to fix your fathers mistakes, this 2d metroid-venia will challange you not to break your keyboard",
+        "isOnWhishlist":false,
+        "isPurchased":false,
+        "contentRating":"E: for everyone",
+         "image":"/images/Hollow knight.png",
+         "GameCode":"5"
+    },
+    {
+        "GameName":"Space Mariene 2",
+        "gamePrice":"59.99",
+        "gameRating":"84%",
+        "discription":"Asend to the forge world Gria as the now reformed luteniant Titus, as you battle the on coming xenos threat, the Terinads. But other powers are at play here...",
+        "isOnWhishlist":false,
+        "isPurchased":false,
+        "contentRating":"Warning: heavy voilence, Hereacy",
+         "image":"/images/WH40k.png",
+         "GameCode":"6"
+    },
+    {
+        "GameName":"Black Myth WuKong",
+        "gamePrice":"59.99",
+        "gameRating":"95%",
+        "discription":"You play as an up and comming warrior in the amazing world of chineese folklore. Based on the journey to the west, you battle your way to getting Syn Jin WUKONG back from the dead.",
+        "isOnWhishlist":true,
+        "isPurchased":false,
+        "contentRating":"Warning: heavy voilence",
+         "image":"/images/BMWK.png",
+         "GameCode":"7"
+    },
+    {
+        "GameName":"Terreria",
+        "gamePrice":"11.99",
+        "gameRating":"90%",
+        "discription":"This isint 2d minecraft, this world is yours to explore and conqure. Have fun alone or with friends as terreria is jam packed with hundreads of hours worth of content.",
+        "isOnWhishlist":false,
+        "isPurchased":false,
+        "contentRating":"Warning: Contains slimes",
+         "image":"/images/Terreria.png",
+         "GameCode":"8"
+    },
+    {
+        "GameName":"Red Dead Redemption 2",
+        "gamePrice":"59.99",
+        "gameRating":"98%",
+        "discription":"Just because youve done bad stuff in the past doesnt mean your a bad person. If you havent played this game....what are you waiting for. ",
+        "isOnWhishlist":true,
+        "isPurchased":false,
+        "contentRating":"Warning: heavy voilence,strong lanuge,mature themes",
+         "image":"/images/RDR2.png",
+         "GameCode":"9"
+    }
+    ]
+}

@@ -1,0 +1,124 @@
+
+/*NavBarSection */
+#navbarGrandParent{
+    border-top: #C32A04;
+    border-width: 10px;
+}
+#gleamHomePageButton{
+    color: #C32A04;
+}
+#gleamHomePageButton:hover{
+    color: #F4743B;
+    transition: 1.2s;
+}
+#navbarButtons{
+    background-color: #C32A04;
+    border-radius: 5px;
+    border-color: #F4743B;
+    border-width: 2px;
+}
+#navbarButtons:hover{
+    color: #F4743B;
+    background-color: #17886c;
+    border-color:#45e1c7;
+    transition: .6s;
+}
+#navbarGrandParent{
+    display: flex;
+}
+#topHeader{
+    background-color: none;
+    padding-left: 20%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: aliceblue;
+    text-decoration: none;
+    text-shadow:black;
+}
+/*The Idea with this is to have the 
+navbar go to the bottom for smaller devices. 
+Then when in a larger fourm it transitions to
+the top where its more known for webpages
+
+*/
+@media(max-width:992px){
+
+    #gleamHomePageButton{
+        color: red;
+    }
+    #navbarGrandParent{
+        position: fixed;
+        bottom: 0;
+        z-index: 10000;
+        width: 100%;
+    }
+    #navbarButtons{
+        margin-left: 5px;
+        margin-right: 8px;
+    }
+    #topHeader{
+        background-color: #2c2f34;
+        text-decoration: underline;
+    }
+}
+/*
+Heading and main page seciton
+*/
+
+#mainBod{/*trying to overwrite the main body with this colour its annoying me sm */
+    background:linear-gradient(-45deg,#251377,#45afe1,#1b7aa7,
+    #16886f,#45e1c7,#17886c);
+    height: 100vh;
+    background-size: 4000% 4000%;
+    animation: bg 25s ease infinite;
+    background-color: #1D84B5;
+    backdrop-filter:blur(60%);
+}  
+@keyframes bg {
+    0%{
+        background-position: 0% 50%;
+        backdrop-filter:blur(60%);
+    }
+    50%{
+        background-position: 100% 100%;
+        backdrop-filter:blur(60%);
+    }
+    100%{
+        background-position: 0 50%;
+        backdrop-filter:blur(60%);
+    }
+}
+#carouselExampleDark-mainBod{
+    padding-top: 10px;
+    border-radius: 40px;
+    border-radius: 3px black;
+}
+
+#carouselExampleDark-mainBod :hover{
+    transform: scale(1.04);
+    transition: .5s ease-in;
+}
+#carosel-card{
+    filter: opacity(5%);
+}
+#carosel-card:hover{
+    filter: opacity(100%);
+    transition: 1.2s ease-out;
+}
+
+#midHeader{
+    margin-top: 25%;
+    margin-left: 20%;
+    padding-top: 300px;
+    padding-bottom: 50px;
+    color: white;
+
+}
+#carouselExampleDark-mainBod-b{
+  padding-bottom: 200px;
+}
+@media(min-width:1200){
+    #midHeader{
+        margin-left: 35%;
+    }
+}
